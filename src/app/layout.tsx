@@ -17,9 +17,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="w-full">
-      <Navbar />
-      {children}
+    <html lang="en">
+      <body className="w-full">
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }

@@ -37,8 +37,9 @@ const Hero = () => {
                     <Image
                         src="/images/Group.png"
                         alt=""
-                        height={100}
+                        height={0}
                         width={600}
+                        className="-translate-y-12"
                     />
                 </div>
             </div>
