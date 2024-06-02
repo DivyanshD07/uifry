@@ -26,6 +26,21 @@ const Hero = () => {
                         </button>
                     </div>
                 </div>
+                <div>
+                    <Image
+                        src="/images/Star 1.png"
+                        alt=""
+                        width={50}
+                        height={50}
+                        className="translate-y-20 translate-x-40 rotate-45"
+                    />
+                    <Image
+                        src="/images/Group.png"
+                        alt=""
+                        height={200}
+                        width={600}
+                    />
+                </div>
             </div>
             <div className="w-5/12">
                 <div className="">
@@ -43,7 +58,14 @@ const Hero = () => {
                         height={600}
                         className="absolute -z-10 translate-x-20 -translate-y-4 flex items-end"
                     />
-                    <div className="glowing-light top-[160%] left-2/3 -z-30"/>
+                    <div className="glowing-light top-[82%] left-2/3 -z-30"/>
+                    <Image 
+                        src="/images/Star 1.png"
+                        alt=""
+                        width={50}
+                        height={50}
+                        className="absolute top-[90%] left-[60%] rotate-6"
+                    />
                     <Image
                         src="/images/iPhone-13-Pro-Front.png"
                         alt=""
