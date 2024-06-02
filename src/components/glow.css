@@ -1,6 +1,8 @@
 .glowing-light {
     position: absolute;
-    border-radius: 0%;
-    box-shadow: 0 0 138px 93px red;
+    border-radius: 50%; /* Changing border-radius to 50% for a circular glow */
+    box-shadow: 
+    50px 8px 59px 66px rgba(255, 0, 0, 0.8), /* Inner red shadow */
+    50px 86px 264px 74px rgba(255, 255, 0, 0.8); /* Outer yellow shadow */
     opacity: 0.8;
   }
