@@ -32,12 +32,12 @@ const Hero = () => {
                         alt=""
                         width={50}
                         height={50}
-                        className="translate-y-20 translate-x-40 rotate-45"
+                        className="translate-y-14 translate-x-40 rotate-45"
                     />
                     <Image
                         src="/images/Group.png"
                         alt=""
-                        height={200}
+                        height={100}
                         width={600}
                     />
                 </div>
